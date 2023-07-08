@@ -25,9 +25,11 @@ Decide what data structure you would use for this purpose, and in your README fi
         2. Cooking time: 5 minutes
         3. Ingredients: Tea leaves, Sugar, Water
 
-  - Create an outer structure called all_recipes, and then add recipe_1 to it. Figure out what type of structure you would consider for all_recipes, and briefly note down your justification in the README file. Ideally, this outer structure should be sequential in nature, where multiple recipes can be stored and modified as required.
+  - Create an outer structure called 'all_recipes', and then add 'recipe_1' to it. Figure out what type of structure you would consider for 'all_recipes'. 
 
-  - Generate 4 more recipes as 'recipe_2, recipe_3, recipe_4, and recipe_5', and then add them as well to all_recipes.
+PLEASE NOTE: For this task listed I would feel the type of structure to be used for 'all_recipes' would be a list.  This would be best for multiple recipes which can be stored and modified as required.
 
-  - Once you’re done setting up all_recipes, print the ingredients of each recipe as five different lists, inside the IPython shell.
+  - Generate 4 more recipes as 'recipe_2, recipe_3, recipe_4, and recipe_5', and then add them as well to 'all_recipes'.
+
+  - Once you’re done setting up 'all_recipes', print the ingredients of each recipe as five different lists, inside the IPython shell.
  
