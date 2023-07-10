@@ -29,10 +29,11 @@ Task Directions:
 
   - Run another 'for' loop that iterates through 'recipes_list', picks out each element (a dictionary) as 'recipe', and performs the following steps:
  Determine the 'difficulty' of the recipe using the following logic:
-  - If 'cooking_time' is less than 10 minutes, and the number of 'ingredients' is less than 4, set a variable called 'difficulty' to the value of 'Easy'.
-  - If 'cooking_time' is less than 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Medium'.
-  - If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is less than 4, set a variable called 'difficulty' to the value of 'Intermediate'.
-  - If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Hard'.
+  1. If 'cooking_time' is less than 10 minutes, and the number of 'ingredients' is less than 4, set a variable called 'difficulty' to the value of 'Easy'.
+  2. If 'cooking_time' is less than 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Medium'.
+  3. If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is less than 4, set a variable called 'difficulty' to the value of 'Intermediate'.
+  4. If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Hard'.
+  
 
   2. Display the recipe in the following format, using values from each dictionary ('recipe') 
            obtained from 'recipes_list':
