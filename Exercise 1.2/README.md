@@ -14,16 +14,16 @@ PLEASE NOTE: The data structure being used for this particular task of a recipe
 
 Task Directions:
   - Create a structure named 'recipe_1' that contains the following keys:
-        1. name (str): Contains the name of the recipe 
-        2. cooking_time (int): Contains the cooking time in minutes       
-        3. ingredients (list): Contains a number of ingredients, each of the str data type
+  1. name (str): Contains the name of the recipe 
+  2. cooking_time (int): Contains the cooking time in minutes       
+  3. ingredients (list): Contains a number of ingredients, each of the str data type
 
 Decide what data structure you would use for this purpose, and in your README file in the repository for this task, describe in approx. 50-75 words why you’ve chosen to use it.
 
   - The 'recipe_1' structure that you create will be for a cup of tea, with the following attributes:
-        1. Name: Tea
-        2. Cooking time: 5 minutes
-        3. Ingredients: Tea leaves, Sugar, Water
+  1. Name: Tea
+  2. Cooking time: 5 minutes
+  3. Ingredients: Tea leaves, Sugar, Water
 
   - Create an outer structure called 'all_recipes', and then add 'recipe_1' to it. Figure out what type of structure you would consider for 'all_recipes'. 
 
