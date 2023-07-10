@@ -33,9 +33,8 @@ Task Directions:
   2. If 'cooking_time' is less than 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Medium'.
   3. If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is less than 4, set a variable called 'difficulty' to the value of 'Intermediate'.
   4. If 'cooking_time' is greater than or equal to 10 minutes, and the number of 'ingredients' is greater than or equal to 4, set a variable called 'difficulty' to the value of 'Hard'.
-  
 
-  2. Display the recipe in the following format, using values from each dictionary ('recipe') 
+  - Display the recipe in the following format, using values from each dictionary ('recipe') 
            obtained from 'recipes_list':
 
                     Recipe: <recipe[recipe_name]>
@@ -58,3 +57,15 @@ Task Directions:
                     Difficulty level: Easy
 
   - Next, you’ll have to display all the ingredients that you’ve come across so far in all of the recipes that you’ve just entered. In Step 5 you appended these ingredients into 'ingredient_list'. Now it’s time to print them all out. Print them in alphabetical order, in a format similar to this example:
+
+                    Ingredients Available Across All Recipes
+                    ----------------------------------------
+                    Corn
+                    Eggs
+                    Ground Pepper
+                    Potatoes
+                    Salt
+                    Sugar
+                    Tea Leaves
+                    Tomatoes
+                    Water
