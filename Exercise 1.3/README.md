@@ -10,10 +10,10 @@ Task Directions:
   - Initialize two empty lists: 'recipes_list' and 'ingredients_list'.
 
   - Define a function called 'take_recipe', which takes input from the user for the following variables:
-        -1. 'name'(str): Stores the name of the recipe.
-        -2. 'cooking_time'(int): Stores the cooking time (in minutes).
-        -3. 'ingredients'(list): A list that stores ingredients, each of the string data type.
-        -4. 'recipe'(dictionary): Stores the 'name', 'cooking_time', and 'ingredients' variables (e.g., 'recipe' = {'name': name, 'cooking_time': cooking_time, 'ingredients': ingredients}).
+  1. 'name'(str): Stores the name of the recipe.
+  2. 'cooking_time'(int): Stores the cooking time (in minutes).
+  3. 'ingredients'(list): A list that stores ingredients, each of the string data type.
+  4. 'recipe'(dictionary): Stores the 'name', 'cooking_time', and 'ingredients' variables (e.g., 'recipe' = {'name': name, 'cooking_time': cooking_time, 'ingredients': ingredients}).
 
   - In the main section of your code, ask the user how many recipes they would like to enter. Their response will be linked to a variable 'n'. 
 
