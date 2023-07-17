@@ -18,10 +18,14 @@ To begin, open a script file named “recipe_oop.py” and perform the following
   2. "ingredients": a list containing the ingredients for a recipe
   3. "cooking_time": the time taken in minutes to carry out a recipe
   4. "difficulty": an auto-generated attribute that says whether the recipe is 'Easy', 'Medium', 'Intermediate', or 'Hard' based on the following logic (this attribute will be updated by the upcoming "calculate_difficulty()" class method):
-  a. If "cooking_time" is less than 10 minutes, and the number of "ingredients" is less than 4, set a variable called "difficulty" to the value of 'Easy'.
-  b. If "cooking_time" is less than 10 minutes, and the number of "ingredients" is greater than or equal to 4, set a variable called "difficulty" to the value of 'Medium'.
-  c. If "cooking_time" is greater than or equal to 10 minutes, and the number of "ingredients" is less than 4, set a variable called "difficulty" to the value of 'Intermediate'.
-  d. If "cooking_time" is greater than or equal to 10 minutes, and the number of "ingredients" is greater than or equal to 4, set a variable called "difficulty" to the value of 'Hard'.
+
+      a. If "cooking_time" is less than 10 minutes, and the number of "ingredients" is less than 4, set a variable called "difficulty" to the value of 'Easy'.
+
+      b. If "cooking_time" is less than 10 minutes, and the number of "ingredients" is greater than or equal to 4, set a variable called "difficulty" to the value of 'Medium'.
+
+      c. If "cooking_time" is greater than or equal to 10 minutes, and the number of "ingredients" is less than 4, set a variable called "difficulty" to the value of 'Intermediate'.
+
+      d. If "cooking_time" is greater than or equal to 10 minutes, and the number of "ingredients" is greater than or equal to 4, set a variable called "difficulty" to the value of 'Hard'.
 
   - Define the following procedural attributes (methods) for the class as well:
   1. An initialization method that takes in the "name" for the recipe and initializes the other data attributes too. Getter and setter methods for "name" and "cooking_time".
@@ -35,11 +39,16 @@ To begin, open a script file named “recipe_oop.py” and perform the following
 
   - To find recipes that contain a specific ingredient, define a method called "recipe_search()":
   1. Define 2 parameters for this method:
-  a. "data": takes in a list of "Recipe" objects to search from
-  b. "search_term": the ingredient to be searched for
+
+      a. "data": takes in a list of "Recipe" objects to search from
+
+      b. "search_term": the ingredient to be searched for
+
   2. Run a 'for' loop that traverses through 'data', and performs the following steps:
-  a. Within the object that is in focus, call the "search_ingredient" method to see if the ingredient is present or not.
-  b. If the above condition is satisfied, print the recipe.
+
+      a. Within the object that is in focus, call the "search_ingredient" method to see if the ingredient is present or not.
+      
+      b. If the above condition is satisfied, print the recipe.
 
   - In the main code, make an object under the "Recipe" class:
   1. Initialize an object named 'tea' under this class, and set the recipe’s name as "Tea" through the initialization step.
@@ -59,7 +68,7 @@ To begin, open a script file named “recipe_oop.py” and perform the following
         a. "Ingredients": Sugar, Butter, Eggs, Vanilla Essence, Flour, Baking Powder, Milk
 
         b. "Cooking time": 50 minutes
-        
+
   3. "Banana Smoothie":
 
         a. "Ingredients": Bananas, Milk, Peanut Butter, Sugar, Ice Cubes
