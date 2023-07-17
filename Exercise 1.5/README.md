@@ -49,12 +49,15 @@ To begin, open a script file named “recipe_oop.py” and perform the following
 
   - Make a few more recipes with the given attributes, and display their respective string representations as well:
   1. "Coffee":
+
         a. "Ingredients": Coffee Powder, Sugar, Water
         b. "Cooking time": 5 minutes
   2. "Cake":
+
         a. "Ingredients": Sugar, Butter, Eggs, Vanilla Essence, Flour, Baking Powder, Milk
         b. "Cooking time": 50 minutes
   3. "Banana Smoothie":
+  
         a. "Ingredients": Bananas, Milk, Peanut Butter, Sugar, Ice Cubes
         b. "Cooking time": 5 minutes
 
