@@ -51,14 +51,19 @@ To begin, open a script file named “recipe_oop.py” and perform the following
   1. "Coffee":
 
         a. "Ingredients": Coffee Powder, Sugar, Water
+
         b. "Cooking time": 5 minutes
+
   2. "Cake":
 
         a. "Ingredients": Sugar, Butter, Eggs, Vanilla Essence, Flour, Baking Powder, Milk
+
         b. "Cooking time": 50 minutes
+        
   3. "Banana Smoothie":
-  
+
         a. "Ingredients": Bananas, Milk, Peanut Butter, Sugar, Ice Cubes
+
         b. "Cooking time": 5 minutes
 
   - Wrap the recipes into a list called "recipes_list".
