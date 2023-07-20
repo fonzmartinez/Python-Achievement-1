@@ -26,7 +26,7 @@ Part 1: Create and connect database
 
   - Next, initialize a 'cursor' object from "conn".
 
-  - Create a database called "task_database". To ensure you don’t get errors from accidentally using multiple databases with the same name, make sure it’s the only database with this name on the server by using the EXISTS statement: CREATE DATABASE IF NOT EXISTS <database name>
+  - Create a database called "task_database". To ensure you don’t get errors from accidentally using multiple databases with the same name, make sure it’s the only database with this name on the server by using the EXISTS statement: CREATE DATABASE IF NOT EXISTS 'database name'
 
   - Have your script access your database with the "USE" statement.
 
@@ -39,9 +39,9 @@ Part 1: Create and connect database
 
   As you did with the database, use the EXISTS statement to make 
   sure there isn’t already a table with the same name: CREATE TABLE
-  IF NOT EXISTS <table name>
+  IF NOT EXISTS 'table name'
 
-Part 2: The Main Nenu
+Part 2: The Main Menu
 
                     Main Menu
                     ==============================
@@ -125,7 +125,7 @@ Part 3: Creating a Recipe with "create_recipe()"
 
       e. Return "difficulty" once the function’s done.
 
-  - Now, you have to prepare to wrap this information up in an SQL query so that you can enter it into the Recipes table on your database. Since MySQL doesn’t fully support arrays, your "ingredients" list needs to be converted into a comma-separated string. This can be done through the "join()" method, which is used with the syntax: <returned_string> = "<separator characters>".join(<sequence from which items are to be joined>). Here, you need to join the elements of the list "ingredients", the separator being a comma followed by a space (", "). Finally, build the query string in the following format: INSERT INTO Recipes (name, ingredients, cooking_time, difficulty) VALUES (<respective values for each column>).
+  - Now, you have to prepare to wrap this information up in an SQL query so that you can enter it into the Recipes table on your database. Since MySQL doesn’t fully support arrays, your "ingredients" list needs to be converted into a comma-separated string. This can be done through the "join()" method, which is used with the syntax: <returned_string> = "'separator characters'".join('sequence from which items are to be joined'). Here, you need to join the elements of the list "ingredients", the separator being a comma followed by a space (", "). Finally, build the query string in the following format: INSERT INTO Recipes (name, ingredients, cooking_time, difficulty) VALUES ('respective values for each column').
 
   - Execute the query, then commit your changes.
 
@@ -137,7 +137,7 @@ Part 4: Searching for a Recipe with "search_recipe()"
 
   - Display all the ingredients that you’ve found so far to the user, and allow them to pick a number corresponding to the ingredient in order to begin a search. Store the ingredient to be searched for into a variable called "search_ingredient".
 
-  - To search for rows in the table that contain "search_ingredient" within the "ingredients" column, use the WHERE statement with the LIKE operator: SELECT (<columns to be displayed>) FROM (<table>) WHERE (<search column>) LIKE (<search pattern>).
+  - To search for rows in the table that contain "search_ingredient" within the "ingredients" column, use the WHERE statement with the LIKE operator: SELECT ('columns to be displayed') FROM ('table') WHERE ('search column') LIKE ('search pattern').
 
 In your case, an ingredient that you search for can either be in the middle, at the beginning, or at the end of the "ingredients" string. SQL Server supports the wildcard "%", which represents zero or more characters in its position. Hence, if you’re searching for "beans" within a string, your search pattern should be "%beans%".
 
