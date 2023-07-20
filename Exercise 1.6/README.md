@@ -137,7 +137,7 @@ Part 4: Searching for a Recipe with "search_recipe()"
 
   - Display all the ingredients that you’ve found so far to the user, and allow them to pick a number corresponding to the ingredient in order to begin a search. Store the ingredient to be searched for into a variable called "search_ingredient".
 
-  - To search for rows in the table that contain "search_ingredient" within the "ingredients" column, use the WHERE statement with the LIKE operator: SELECT <columns to be displayed> FROM <table> WHERE <search column> LIKE <search pattern>.
+  - To search for rows in the table that contain "search_ingredient" within the "ingredients" column, use the WHERE statement with the LIKE operator: SELECT (<columns to be displayed>) FROM (<table>) WHERE (<search column>) LIKE (<search pattern>).
 
 In your case, an ingredient that you search for can either be in the middle, at the beginning, or at the end of the "ingredients" string. SQL Server supports the wildcard "%", which represents zero or more characters in its position. Hence, if you’re searching for "beans" within a string, your search pattern should be "%beans%".
 
