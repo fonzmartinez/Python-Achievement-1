@@ -1,4 +1,4 @@
-## Exercise  - Databases in Python
+## Exercise 1.6 - Databases in Python
 
 Task Requirement:
   - In this task, you’ll explore how you can use MySQL to store data for your command-line Recipe app. You’ll be able to add a few more methods into your Recipe class that perform operations on your MySQL database.
