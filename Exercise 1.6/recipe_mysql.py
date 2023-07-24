@@ -168,4 +168,4 @@ def delete_recipe(conn, cursor):
 
 
 main_menu(conn, cursor)
-print('\nGoodbye!!')                
+print('\nGoodbye!')                
