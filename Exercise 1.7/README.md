@@ -38,7 +38,7 @@ Store your declarative base class into a variable called Base. Then, begin your 
   - Define a __str__ method that prints a well-formatted version of the recipe. Get creative with your print statements! Some quick tips:
   1. The '\t' characters create a tab space, which is equivalent to 4 spaces.
   2. The '\n' characters string creates a new line. (Remember: these characters are strings, so they’ll always go inside quotation marks.)
-  3. To repeat a set of characters multiple times, simply type your desired characters in double quotes, followed by *('number of times to be repeated'). For example, typing in print("-"*5) would give you -----.
+  3. To repeat a set of characters multiple times, simply type your desired characters in double quotes, followed by *({number of times to be repeated}). For example, typing in print("-"*5) would give you -----.
   4. Use the 'end' keyword argument in the "print()" function to explicitly define what comes after its output. By default, every "print()" statement creates a new line. Have a look at the following example:
 
                       print("Hello", end="=")
@@ -93,7 +93,7 @@ Before you create the main menu, you need to establish the functions that get ex
 
   Function 3: search_by_ingredients()
 
-  - Check if your table has any entries. Use the "count()" method like below to get the number of entries in the given table: "session.query('model name').count()". If there aren’t any entries, notify the user, and exit the function.
+  - Check if your table has any entries. Use the "count()" method like below to get the number of entries in the given table: "session.query({model name}).count()". If there aren’t any entries, notify the user, and exit the function.
 
   - Retrieve only the values from the "ingredients" column of your table, and store this into a variable called "results".
 
@@ -113,7 +113,7 @@ Before you create the main menu, you need to establish the functions that get ex
 
   - Run a loop that runs through "search_ingredients", and performs the following steps:
   1. Make a search string called "like_term", which is essentially the ingredient, surrounded by a “%” on either side (e.g., “%Milk%”).
-  2. Append the search condition containing "like_term" to the "conditions" list (e.g., 'Model name'.'column to search in'.like(like_term)).
+  2. Append the search condition containing "like_term" to the "conditions" list (e.g., {Model name}.{column to search in}.like(like_term)).
 
   - Retrieve all recipes from the database using the "filter()" query, containing the list "conditions". Display these recipes using the __str__ method.
 
